@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+p {
+    color: #000;
+    font-size: 18px;
+}
+
+h1 {
+    color: #fff;
+}
+
+span {
+    font-size: px;
+}
+
+h2 {
+    color: #FC3C3C;
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+header {
+    background-color: #204E5F;
+    height: 70px;
+
+}
+
+.navbar {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 10px;
+    transition: ease 0.5s;
+}
+
+nav ul li a i {
+    margin-right: 10px;
+}
+
+nav ul li a:hover {
+    color: #00ADB5;
+    background-color: #EDF7F5;
+    border: 1px solid #fff;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    margin-bottom: 30px;
+}
+
+.picture {
+    width: 50%;
+    text-align: center;
+}
+
+.picture h2 {
+    margin-top: 5px;
+}
+
+.career {
+    margin-top: 5px;
+}
+
+.info {
+    width: 50%;
+}
+
+.info ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+
+.info ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 8px;
+    border: 1px solid red;
+    border-radius: 10px;
+    transition: ease 0.5s;
+}
+
+.info ul li a i {
+    margin-right: 10px;
+}
+
+.info ul li a:hover {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.content .profile .picture img {
+    border-radius: 100%;
+}
+
+.education {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.edu {
+    width: 20%;
+    height: 250px;
+    color: #fff;
+    padding: 15px 20px;
+    border: 1px solid red;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    transition: ease 0.5s;
+}
+
+.edu p {
+    color: #fff;
+    font-size: 15px;
+}
+
+.card-bottom {
+    position: absolute;
+    bottom: 26px;
+}
+
+.edu:hover {
+    transform: translateY(-20px);
+    border-color: red;
+}
+
+button {
+    border: 1px solid red;
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+    border-radius: 10px;
+    transition: ease 0.5s;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.education-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/Hacker.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.education-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/Yazılım.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.education-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/Elektrik.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.education-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/Matematik.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    margin-top: 30px;
+    height: 100px;
+    background-color: #204E5F;
+    text-align: center;
+    line-height: 50px;
+    font-size: 36px;
+    color: #fff;
+}
